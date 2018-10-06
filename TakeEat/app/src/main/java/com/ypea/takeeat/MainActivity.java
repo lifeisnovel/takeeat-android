@@ -43,7 +43,7 @@ import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
 
-    private static final String CLOUD_VISION_API_KEY = String.valueOf(R.string.cloud_vision_key);
+    private final String CLOUD_VISION_API_KEY = getString(R.string.cloud_vision_key);
     private static final String TAG = MainActivity.class.getSimpleName();
     private static final String ANDROID_CERT_HEADER = "X-Android-Cert";
     private static final String ANDROID_PACKAGE_HEADER = "X-Android-Package";
